@@ -8,12 +8,16 @@ function nonMaoriMihi() {
   alert("First, you'll be asked a series of questions, then your mihi will be ready.")
 
   alert('What is your name?')
-  let name = prompt()
-  // more questions and answers here
+  let name = prompt('What is your name ?')
+  let mountain = prompt('What is your mountain?')
+  let river = prompt ('What is the river ?')
+  let hometown = prompt ('What is your home town?')
 
+  alert('Ko' + name + ',')
+  alert('Ko' + mountain + 'tōku maunga')
+  alert('Ko'+ river +'tōku awa')
+  alert('Nō' + hometown + 'au')
   alert('Your mihi:')
-  // more outputs here
-
   alert('Ko ' + name + ' tōku ingoa,')
   alert('Tēnā koutou,')
   alert('Tēnā koutou,')
